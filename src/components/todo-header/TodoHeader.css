@@ -1,0 +1,34 @@
+.todo-header form {
+	display: flex;
+}
+
+.todo-header form input {
+	width: 100%;
+	padding: 14px;
+	border-radius: 8px 0px 0px 8px;
+	outline: 0;
+	border: 1px solid #ccc;
+	color: #5d5d5d;
+	font-size: 18px;
+}
+
+.todo-header form input::placeholder {
+	font-size: 14px;
+	color: #5d5d5d;
+}
+
+.todo-header form button {
+	background: #5d5d5d;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 0px 8px 8px 0px;
+	width: 64px;
+}
+
+.todo-header h1 {
+	font-weight: normal;
+	text-align: center;
+	color: #5d5d5d;
+	letter-spacing: 0.5px;
+}
